@@ -1,0 +1,57 @@
+body {
+    font-family: "Edu VIC WA NT Beginner", cursive;
+    background:linear-gradient(#65000B,#F4C2C2);
+    text-align:center;
+    color:#EDC9AF;
+}
+
+img {
+    width:150px;
+    border-radius: 50%;
+    border:2px dotted #F4C2C2;
+}
+
+#header{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+}
+
+h3 {
+    background:#702963;
+    padding:8px 5px;
+    border-radius:5px;
+}
+
+h4 {
+    background:#702963;
+    padding:5pxpx 5px;
+    border-radius:5px;
+    margin-top:5px;
+}
+
+.gift-img {
+    background-image:url("images/gift-wrap.jpg");
+    background-size:cover;
+    border:4px solid #702963;
+    width:400px;
+    height:300px;
+    display:block;
+    margin:0 auto;
+}
+
+#gift-img-bless:hover{
+    background-image:url("https://media.giphy.com/media/ChirBsa2nkLNOpXLE8/giphy.gif?cid=790b76117ichzcazokmwbjly8o6lfdrwf6eq1a5x1rvg03pf&ep=v1_gifs_search&rid=giphy.gif&ct=g");
+}
+
+#gift-img-stunning:hover{
+    background-image:url("https://media.giphy.com/media/o3EiQmF9z2Ya5MxvWJ/giphy.gif?cid=790b7611q539shj2dxz7cuvak6vsifzp9uhewzxur6ss1kfj&ep=v1_gifs_search&rid=giphy.gif&ct=g");
+}
+
+#gift-img-crime:hover{
+    background-image:url("https://media.giphy.com/media/uCx0caFDQ5AB2/giphy.gif?cid=790b7611ptcwdgel45a1vazt9c8z4zhhm9dy1b3rr1hanmgn&ep=v1_gifs_search&rid=giphy.gif&ct=g");
+}
+
+#gift-img-happy:hover{
+    background-image:url("images/us.jpg");
+}
